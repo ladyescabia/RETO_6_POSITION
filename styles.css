@@ -1,0 +1,28 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.tooltip-trigger {
+    color: red;
+}
+
+.tooltip-content {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 1; 
+    width: 200px;
+}
+
+.tooltip-trigger:hover .tooltip-content {
+    display: block;
+}
